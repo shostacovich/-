@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виджет MyInstants</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            max-width: 400px;
+            width: 100%;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .widget-container {
+            display: flex;
+            justify-content: center;
+            margin: 25px 0;
+        }
+        
+        .description {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-top: 20px;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Виджет MyInstants</h1>
+        
+        <div class="widget-container">
+            <iframe width="110" height="200" src="https://www.myinstants.com/instant/1-sentiabria-19292/embed/" frameborder="0" scrolling="no"></iframe>
+        </div>
+        
+        <p class="description">Этот виджет встроен с сайта MyInstants.com. Нажмите на него, чтобы активировать звук.</p>
+        
+        <p class="footer">Сайт создан специально для отображения виджета</p>
+    </div>
+</body>
+</html>
